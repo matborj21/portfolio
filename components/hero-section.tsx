@@ -44,7 +44,7 @@ const HerorSection = () => {
         href="/resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className=' border border-primary text-accent-foreground px-15 py-3 rounded-md cursor-pointer hover:bg-accent-foreground hover:text-card transition-colors duration-300'>
+        className=' border border-primary text-accent-foreground px-15 py-3 rounded-md cursor-pointer hover:bg-primary hover:border-secondary hover:text-card transition-colors duration-300'>
           Resume
         </a>
       </div>

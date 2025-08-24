@@ -55,7 +55,7 @@ const Navbar = () => {
 
 
       <nav className={`absolute top-0 h-80 pt-20 left-0 w-full bg-card shadow-md border-b
-          ${isOpen ? "animate-slidedown" : "animate-slideup"}
+          ${isOpen ? "animate-slidedown block" : "animate-slideup hidden"}
           `}
       >
           <ul className="text-primary text-2xl flex flex-col gap-4 items-center">
